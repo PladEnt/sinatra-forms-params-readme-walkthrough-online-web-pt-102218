@@ -11,6 +11,6 @@ class App < Sinatra::Base
 
   # Add your post route and action below
   post '/food' do
-    "Hello World"
+    params.to_s
   end
 end
